@@ -1,0 +1,22 @@
+img {
+    max-height: 75px;
+    max-width: 75px;
+    margin-left: 15px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+#cupcake-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+label {
+    text-align: center;
+    text-transform: uppercase;
+}

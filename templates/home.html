@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Cupcakes!{% endblock %}
+
+{% block content %}
+
+<section class="cupcakes">
+    <h1>CUPCAKES!</h1>
+    <ul class="cupcake-list"></ul>
+</section>
+
+<form id="cupcake-form">
+    <label for="flavor">Flavor: </label><input type="text" id="flavor" name="flavor" placeholder="Enter cupcake flavor">
+    <label for="size">Size: </label><input type="text" id="size" name="size" placeholder="Enter cupcake size">
+    <label for="rating">Rating: </label><input type="text" id="rating" name="rating" placeholder="Enter cupcake rating">
+    <label for="image">Image: </label><input type="text" id="image" name="image" placeholder="Enter cupcake image url">
+    <input type="submit" id="cupcake-submit">
+</form>
+
+<script src="/static/home.js"></script>
+{% endblock %}
